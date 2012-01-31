@@ -11,10 +11,10 @@ data = [
     ('Marlboro_QR_code.JPG.scaled500.jpg', 'HTTP://SCN.BY/9T9AB0HTW8HQCA'),
     ('qr-code.jpg', 'http://theory.isthereason.com'),
     #('brandyn_bikeshop0.jpg', ''),  # These don't work properly
-    #('brandyn_bikeshop1.jpg', '')
+    #('brandyn_bikeshop1.jpg', ''),
+    #('brandyn_bikeshop2.jpg', '')
 ]
 
-#    ('brandyn_bikeshop0.jpg', ''),
 
 class TestZxing(unittest.TestCase):
     def test_samples(self):
